@@ -1,7 +1,8 @@
-for file in ./*.php
+for file in $(find . -name "*.php");
 do
 	var=$(php -l "$file"  | grep "No syntax")
 	echo $var
+	echo $file
 	if [ -z "$var" ]; then
   		echo "Test do not pass"
   		exit 1
