@@ -5,6 +5,4 @@ function writeMsg() {
 }
 
 writems();
-ddcdcd,,,
-mjbhb,,;;
 ?>
